@@ -74,12 +74,12 @@ const Header = () => {
               {!auth?.user ? (
                 <>
                   <li className="nav-item">
-                    <NavLink to="/register" className="nav-link">
+                    <NavLink to="/register" className="nav-link" id="register">
                       Register
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink to="/login" className="nav-link">
+                    <NavLink to="/login" className="nav-link" id="login" >
                       Login
                     </NavLink>
                   </li>
